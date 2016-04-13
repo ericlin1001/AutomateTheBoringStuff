@@ -1,0 +1,14 @@
+POST  https://wx.qq.com/cgi-bin/mmwebwx-bin/webwxsendmsg
+
+Host: wx.qq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.8,zh-CN;q=0.5,zh;q=0.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json;charset=utf-8
+Referer: https://wx.qq.com/
+Content-Length: 410
+Cookie: pgv_pvi=8483504128; pgv_pvid=1925299100; mm_lang=en_US; MM_WX_NOTIFY_STATE=1; MM_WX_SOUND_STATE=1; pgv_si=s8170330112; wxuin=2300056023; wxsid=5FjmSKuvCoPemAPz; wxloadtime=1458576323_expired; webwx_data_ticket=AQcLg4CkIJHVTTO9P+jaUMAg; webwxuvid=32aad9e8d428c8c71be1aa910f93144a00e2e60a16badc67663c13986f22d136e7736eaa1d56cbc0187680c79418830c; wxpluginkey=1458556180
+Connection: keep-alive
+
+{"BaseRequest":{"Uin":2300056023,"Sid":"5FjmSKuvCoPemAPz","Skey":"@crypt_7bae779a_1f31d1b668a63616d1df7009d8acbb1a","DeviceID":"e198955058289919"},"Msg":{"Type":1,"Content":"hello","FromUserName":"@8caada266f8376c5b02ec0da3a5b82834d12505b25c81fdb3b3c28e2c3231224","ToUserName":"@b02e9299e9b42f4109950e695b340ee7b4991e3460cfdc5add335bb08616976e","LocalID":"14585825718840192","ClientMsgId":"14585825718840192"}}
